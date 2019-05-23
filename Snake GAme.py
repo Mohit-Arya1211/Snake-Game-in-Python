@@ -37,6 +37,7 @@ key = curses.KEY_RIGHT
 
     if key == curses.KEY_DOWN:
         new_head[0] += 1
+        
     if key == curses.KEY_UP:
         new_head[0] -= 1
     if key == curses.KEY_RIGHT:
